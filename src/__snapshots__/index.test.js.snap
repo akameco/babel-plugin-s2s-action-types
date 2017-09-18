@@ -7,7 +7,7 @@ export type Action = Increment
       ↓ ↓ ↓ ↓ ↓ ↓
 
 // @flow
-export const INCREMENT: \\"app/counter/increment\\" = \\"app/counter/increment\\";
+export const INCREMENT: \\"app/counter/INCREMENT\\" = \\"app/counter/INCREMENT\\";
 
 export const Actions = {
   INCREMENT
@@ -28,7 +28,7 @@ export type Action = Increment
       ↓ ↓ ↓ ↓ ↓ ↓
 
 // @flow
-export const INCREMENT: \\"counter/increment\\" = \\"counter/increment\\";
+export const INCREMENT: \\"counter/INCREMENT\\" = \\"counter/INCREMENT\\";
 
 export const Actions = {
   INCREMENT
@@ -50,7 +50,7 @@ export type Action = Increment
       ↓ ↓ ↓ ↓ ↓ ↓
 
 // @flow
-export const INCREMENT: \\"app/counter/increment\\" = \\"app/counter/increment\\";
+export const INCREMENT: \\"app/counter/INCREMENT\\" = \\"app/counter/INCREMENT\\";
 
 export const Actions = {
   INCREMENT
@@ -71,8 +71,8 @@ export type Action = Increment | Decrement
       ↓ ↓ ↓ ↓ ↓ ↓
 
 // @flow
-export const INCREMENT: \\"app/counter/increment\\" = \\"app/counter/increment\\";
-export const DECREMENT: \\"app/counter/decrement\\" = \\"app/counter/decrement\\";
+export const INCREMENT: \\"app/counter/INCREMENT\\" = \\"app/counter/INCREMENT\\";
+export const DECREMENT: \\"app/counter/DECREMENT\\" = \\"app/counter/DECREMENT\\";
 
 export const Actions = {
   INCREMENT,
@@ -101,7 +101,7 @@ export type Action = Add;
       ↓ ↓ ↓ ↓ ↓ ↓
 
 // @flow
-export const ADD: 'app/counter/add' = 'app/counter/add';
+export const ADD: 'app/counter/ADD' = 'app/counter/ADD';
 
 export const Actions = {
   ADD
@@ -131,7 +131,7 @@ export type Action = FetchUser;
 // @flow
 import type { UserID } from './types.js';
 
-export const FETCH_USER: 'app/counter/fetch_user' = 'app/counter/fetch_user';
+export const FETCH_USER: 'app/counter/FETCH_USER' = 'app/counter/FETCH_USER';
 
 export const Actions = {
   FETCH_USER
@@ -158,7 +158,7 @@ export type Action = Increment
 // @flow
 import type { X } from './types';
 
-export const INCREMENT: 'app/counter/increment' = 'app/counter/increment';
+export const INCREMENT: 'app/counter/INCREMENT' = 'app/counter/INCREMENT';
 
 export const Actions = {
   INCREMENT
@@ -197,7 +197,7 @@ export type Action = Increment;
       ↓ ↓ ↓ ↓ ↓ ↓
 
 // @flow
-export const INCREMENT: 'app/counter/increment' = 'app/counter/increment';
+export const INCREMENT: 'app/counter/INCREMENT' = 'app/counter/INCREMENT';
 
 export const Actions = {
   INCREMENT
@@ -220,7 +220,7 @@ export type Action = Decrement;
       ↓ ↓ ↓ ↓ ↓ ↓
 
 // @flow
-export const DECREMENT: 'app/counter/decrement' = 'app/counter/decrement';
+export const DECREMENT: 'app/counter/DECREMENT' = 'app/counter/DECREMENT';
 
 export const Actions = {
   DECREMENT
@@ -241,7 +241,7 @@ export type Action = ThisIsAction;
       ↓ ↓ ↓ ↓ ↓ ↓
 
 // @flow
-export const THIS_IS_ACTION: \\"app/counter/this_is_action\\" = \\"app/counter/this_is_action\\";
+export const THIS_IS_ACTION: \\"app/counter/THIS_IS_ACTION\\" = \\"app/counter/THIS_IS_ACTION\\";
 
 export const Actions = {
   THIS_IS_ACTION

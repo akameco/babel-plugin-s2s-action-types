@@ -83,12 +83,12 @@ export default () => {
 
           const prefix = usePrefix ? getPrefix(file, removePrefix) : ''
 
-          // const CONS: 'cons' = 'prefix/cons'
-          const constantAST = typeNames.map(name => {
-            const actionName = t.identifier(constantCase(name))
-            // prefer snake_case than CONSTANT_CASE for readability
-            const value = t.stringLiteral(prefix + snakeCase(name))
+          // const CONS: 'CONS' = 'prefix/CONS'
+          const constantAST = typeNames.map(x => {
+            const name = constantCase(x)
+            const value = t.stringLiteral(prefix + name)
 
+            const actionName = t.identifier(name)
             actionName.typeAnnotation = t.typeAnnotation(
               t.genericTypeAnnotation(value)
             )
