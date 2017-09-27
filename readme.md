@@ -38,11 +38,11 @@ export type Action = Increment;
 ```
 
 ## Related
-[**akameco/s2s**<br>Source to Source](https://github.com/akameco/s2s)
-[**akameco/babel-plugin-s2s-action-root**<br>compose flow + redux action types](https://github.com/akameco/babel-plugin-s2s-action-root)
-[**akameco/babel-plugin-s2s-state-root**<br>compose flow + redux state types](https://github.com/akameco/babel-plugin-s2s-state-root)
-[**akameco/babel-plugin-s2s-reducer-root**<br>compose redux reducer](https://github.com/akameco/babel-plugin-s2s-reducer-root)
-[**akameco/babel-plugin-s2s-action-creater**<br>generate redux action creater](https://github.com/akameco/babel-plugin-s2s-action-creater)
+- [**akameco/s2s**<br>Source to Source](https://github.com/akameco/s2s)
+- [**akameco/babel-plugin-s2s-action-root**<br>compose flow + redux action types](https://github.com/akameco/babel-plugin-s2s-action-root)
+- [**akameco/babel-plugin-s2s-state-root**<br>compose flow + redux state types](https://github.com/akameco/babel-plugin-s2s-state-root)
+- [**akameco/babel-plugin-s2s-reducer-root**<br>compose redux reducer](https://github.com/akameco/babel-plugin-s2s-reducer-root)
+- [**akameco/babel-plugin-s2s-action-creater**<br>generate redux action creater](https://github.com/akameco/babel-plugin-s2s-action-creater)
 
 ## License
 
