@@ -1,3 +1,8 @@
+# Moved. See [s2s-plugins](https://github.com/akameco/s2s-plugins)
+
+
+---
+
 # babel-plugin-s2s-action-types
 [![Build Status](https://travis-ci.org/akameco/babel-plugin-s2s-action-types.svg?branch=master)](https://travis-ci.org/akameco/babel-plugin-s2s-action-types)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
